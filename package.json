@@ -5,7 +5,7 @@
   "type":"module",
   "main": "index.js",
   "scripts": {
-    "dev": "npm --watch src/index.js"
+    "dev": "node --watch src/index.js"
   },
   "author": "AG",
   "license": "ISC"

@@ -2,11 +2,19 @@
   "name": "pro21_play_backend",
   "version": "1.0.0",
   "description": "Professional Backend",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch src/index.js"
   },
   "author": "AG",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  }
 }
